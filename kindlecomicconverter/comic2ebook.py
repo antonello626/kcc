@@ -960,7 +960,7 @@ def makeParser():
                                  help="Double page parsing mode. 0: Split 1: Rotate 2: Both [Default=0]")
     processingOptions.add_option("-g", "--gamma", type="float", dest="gamma", default="0.0",
                                  help="Apply gamma correction to linearize the image [Default=Auto]")
-    processingOptions.add_option("-c", "--cropping", type="int", dest="cropping", default="2",
+    processingOptions.add_option("-c", "--cropping", type="int", dest="cropping", default="0",
                                  help="Set cropping mode. 0: Disabled 1: Margins 2: Margins + page numbers [Default=2]")
     processingOptions.add_option("--cp", "--croppingpower", type="float", dest="croppingp", default="1.0",
                                  help="Set cropping power [Default=1.0]")
